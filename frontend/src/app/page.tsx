@@ -4,10 +4,13 @@ import { useState } from "react";
 import Link from "next/link";
 import {
   Activity,
+  Bell,
   Building2,
   CreditCard,
   DollarSign,
+  Layers3,
   RefreshCcw,
+  Settings,
   ShieldCheck,
   type LucideIcon,
   Users,
@@ -36,7 +39,12 @@ const navItems: Array<[string, LucideIcon, string]> = [
   ["Overview", Activity, "/"],
   ["Tenants", Building2, "/tenants"],
   ["Users", Users, "/users"],
+  ["Plans", Layers3, "/plans"],
+  ["Subscriptions", Activity, "/subscriptions"],
   ["Billing", CreditCard, "/billing"],
+  ["Analytics", DollarSign, "/analytics"],
+  ["Notifications", Bell, "/notifications"],
+  ["Settings", Settings, "/settings"],
 ];
 
 const formatCurrency = (value: number) =>
