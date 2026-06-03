@@ -59,3 +59,43 @@ npm run dev
 The frontend expects the API at `http://localhost:8000/api`. Override it with `NEXT_PUBLIC_API_URL`.
 
 Open the app at `http://localhost:3000`.
+
+## Deployment
+
+### Backend on Render
+
+This repo includes a Render Blueprint at `render.yaml`.
+
+1. Push the repository to GitHub.
+2. In Render, create a new Blueprint from the repository.
+3. After Render creates the backend service, update these env vars with the real deployed domains:
+   - `ALLOWED_HOSTS=your-backend-name.onrender.com`
+   - `CORS_ALLOWED_ORIGINS=https://your-frontend.vercel.app`
+   - `CSRF_TRUSTED_ORIGINS=https://your-frontend.vercel.app`
+
+Render runs:
+
+```bash
+pip install -r requirements.txt && python manage.py collectstatic --no-input
+python manage.py migrate && gunicorn saas_admin.wsgi:application
+```
+
+Use `backend/.env.example` as the backend environment reference.
+
+### Frontend on Vercel
+
+Deploy the `frontend` directory as the Vercel project root.
+
+Set this Vercel environment variable:
+
+```bash
+NEXT_PUBLIC_API_URL=https://your-backend-name.onrender.com/api
+```
+
+Then deploy with Vercel's Git integration or from `frontend`:
+
+```bash
+npm install
+npm run build
+vercel --prod
+```
