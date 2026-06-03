@@ -184,7 +184,7 @@ export default function DashboardPage() {
                       try {
                         await login("admin@nexasaas.io", "Admin@12345");
                       } catch {
-                        setLoginError("Demo login failed. Django must be running on port 8000.");
+                        setLoginError("Demo login failed. Check the backend URL and seeded demo account.");
                       }
                     }}
                   >
@@ -198,7 +198,7 @@ export default function DashboardPage() {
 
           {isAuthenticated && hasApiError ? (
             <div className="rounded-lg border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-sm text-amber-200">
-              A dashboard request failed. Check that Django is still running on port 8000.
+              A dashboard request failed. Check that the deployed backend is reachable.
             </div>
           ) : null}
 
