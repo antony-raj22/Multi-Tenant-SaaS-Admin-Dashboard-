@@ -1,0 +1,46 @@
+<svg width="1280" height="760" viewBox="0 0 1280 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Analytics and Settings Preview</title>
+  <desc id="desc">Preview of analytics charts, growth metrics, notifications, and system settings for a SaaS admin dashboard.</desc>
+  <rect width="1280" height="760" fill="#111827"/>
+  <rect x="48" y="42" width="1184" height="676" rx="18" fill="#F9FAFB"/>
+  <rect x="48" y="42" width="1184" height="84" rx="18" fill="#111827"/>
+  <text x="86" y="94" fill="#F9FAFB" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">NexaAdmin Analytics</text>
+  <rect x="1006" y="68" width="154" height="34" rx="8" fill="#374151"/>
+  <text x="1030" y="90" fill="#E5E7EB" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">Last 30 days</text>
+  <text x="86" y="178" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="800">Analytics and Settings</text>
+  <text x="86" y="207" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="15">Track revenue movement, user growth, churn, and operating preferences.</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="86" y="252" width="244" height="112" rx="10" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="110" y="288" fill="#64748B" font-size="14" font-weight="700">MRR</text><text x="110" y="328" fill="#111827" font-size="34" font-weight="800">$84.2K</text><text x="230" y="328" fill="#059669" font-size="14" font-weight="800">+12%</text>
+    <rect x="356" y="252" width="244" height="112" rx="10" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="380" y="288" fill="#64748B" font-size="14" font-weight="700">Active users</text><text x="380" y="328" fill="#111827" font-size="34" font-weight="800">16.9K</text><text x="510" y="328" fill="#2563EB" font-size="14" font-weight="800">+8%</text>
+    <rect x="626" y="252" width="244" height="112" rx="10" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="650" y="288" fill="#64748B" font-size="14" font-weight="700">Churn</text><text x="650" y="328" fill="#111827" font-size="34" font-weight="800">2.4%</text><text x="760" y="328" fill="#059669" font-size="14" font-weight="800">-0.6%</text>
+    <rect x="896" y="252" width="244" height="112" rx="10" fill="#FFFFFF" stroke="#E5E7EB"/>
+    <text x="920" y="288" fill="#64748B" font-size="14" font-weight="700">Trial accounts</text><text x="920" y="328" fill="#111827" font-size="34" font-weight="800">12</text><text x="996" y="328" fill="#EA580C" font-size="14" font-weight="800">watch</text>
+  </g>
+  <rect x="86" y="404" width="592" height="246" rx="12" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="114" y="444" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">Revenue Trend</text>
+  <g transform="translate(126 478)">
+    <path d="M0 134h500" stroke="#E5E7EB"/>
+    <path d="M0 96h500M0 58h500M0 20h500" stroke="#F1F5F9"/>
+    <path d="M0 116C52 96 86 91 126 74C172 54 210 84 256 56C306 26 344 44 388 34C436 22 468 34 500 16" stroke="#2563EB" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M0 128C54 120 98 112 136 102C178 92 218 106 258 88C306 66 346 82 388 74C436 62 468 70 500 54" stroke="#14B8A6" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <g fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="12">
+      <text x="0" y="168">Jan</text><text x="95" y="168">Feb</text><text x="195" y="168">Mar</text><text x="295" y="168">Apr</text><text x="395" y="168">May</text><text x="485" y="168">Jun</text>
+    </g>
+  </g>
+  <rect x="710" y="404" width="430" height="246" rx="12" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="738" y="444" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">System Settings</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="738" y="492" fill="#64748B" font-size="13" font-weight="700">App name</text>
+    <rect x="738" y="504" width="352" height="38" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="758" y="528" fill="#111827" font-size="14" font-weight="700">NexaAdmin</text>
+    <text x="738" y="574" fill="#64748B" font-size="13" font-weight="700">Billing currency</text>
+    <rect x="738" y="586" width="166" height="38" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="758" y="610" fill="#111827" font-size="14" font-weight="700">USD</text>
+    <rect x="934" y="586" width="156" height="38" rx="19" fill="#DCFCE7"/>
+    <circle cx="1072" cy="605" r="14" fill="#16A34A"/>
+    <text x="958" y="610" fill="#166534" font-size="14" font-weight="800">Live mode</text>
+  </g>
+</svg>

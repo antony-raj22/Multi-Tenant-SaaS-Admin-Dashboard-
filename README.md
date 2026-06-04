@@ -4,6 +4,12 @@ Modern SaaS admin platform for managing tenants, users, plans, subscriptions, pa
 
 ![Multi-Tenant SaaS Admin Dashboard sample preview](docs/assets/dashboard-preview.svg)
 
+## Additional Previews
+
+![Tenant and billing management preview](docs/assets/tenant-billing-preview.svg)
+
+![Analytics and settings preview](docs/assets/analytics-settings-preview.svg)
+
 ## Features
 
 - Tenant management with account status, domains, and user counts
